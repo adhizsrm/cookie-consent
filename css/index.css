@@ -117,10 +117,10 @@ main{
 }
 
 .modal-choice-btns{
-    margin-top: 10px;
-    padding: 8px 16px;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    padding: 8px 16px;
 }
 
 .modal-btn{
@@ -153,4 +153,9 @@ input{
     height: 140px;
     line-height: 23px;
     margin-bottom: 0;
+}
+
+/* reverse functionality for sorting */
+.reverse {
+    flex-direction: row-reverse;
 }
